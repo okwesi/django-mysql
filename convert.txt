@@ -52,3 +52,4 @@ Step 4: Import Required Fixture via Loaddata from SQLite to PostgreSQL
 The final main step to connect SQLite to PostgreSQL requires you to disable every signal present in projects. This will safeguard you from getting unique prebuilt constraints. Finally, use the following command and load data to PostgreSQL database from fixtures:
 
 python manage.py loaddata whole.json
+if it doesnt work, just delete the database and generate new data with Mackaroo
